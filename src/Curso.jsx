@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 
 const mayorDeEdad = edad => edad > 18
 
@@ -34,5 +35,19 @@ const Curso = ({title, image, price, profesor}) => (
             </div>
         </article>   
 )
+
+Curso.propTypes = {
+    title: PropTypes.string,
+    image: PropTypes.string,
+    price: PropTypes.string,
+    profesor: PropTypes.string
+}
+
+Curso.defaultProps = {
+    title: "No se encontro titulo",
+    image: "https://cdn.slidesharecdn.com/ss_thumbnails/presentaciondefaultmac-sept-171115024926-thumbnail-4.jpg?cb=1510714658",
+    price: "--",
+    profesor: ""
+}
 
 export default Curso

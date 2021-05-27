@@ -21,7 +21,7 @@ const App = () => (
         <div className="ed-grid m-grid-3">
             <Curso
                 title= "React desde cero"
-                image= "https://edteam-media.s3.amazonaws.com/courses/big/3ec614b5-a9b7-475c-bf8f-8ba643a129eb.png"
+                /* image= "https://edteam-media.s3.amazonaws.com/courses/big/3ec614b5-a9b7-475c-bf8f-8ba643a129eb.png" */
                 price= "50usd"
                 profesor= "https://edteam-media.s3.amazonaws.com/users/thumbnail/d5060642-11c9-49cb-9029-fc0a3bf8ff94.png"
             ></Curso>
